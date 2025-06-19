@@ -12,3 +12,5 @@ elif idade == idadeAlistamento:
     print ('Você tem {} anos. Já está na hora do seu alistamento militar.' .format (idadeAlistamento))
 else:
     print ('Você tem {} anos. Já se passaram {} anos do mommento de se alistar para o exército.' .format(idade, idade - idadeAlistamento))
+
+# PAREI EM 20 MIN
