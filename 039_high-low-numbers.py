@@ -1,1 +1,0 @@
-# PAREI EM 19 MIN
