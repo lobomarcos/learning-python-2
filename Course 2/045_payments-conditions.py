@@ -1,4 +1,4 @@
-value = float (input('Qual o valor do produto que você deseja comprar?: ')) 
+value = float (input('Qual o valor do produto que você deseja comprar?: R$ ')) 
 payment = int (input('Qual seria a forma de pagamento?. \nFormas de pagamento: \n [ 1 ] À vista em dinheiro \n [ 2 ] À vista no Cartão de Crédito \n [ 3 ] 2x no Cartão de Crédito \n [ 4 ] 3x no Cartão de Crédito \n'))
 
 discountMoney = value * 0.1
