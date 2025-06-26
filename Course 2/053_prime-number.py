@@ -1,14 +1,17 @@
 pNumber = int(input('Digite um número para saber se ele é Primo: '))
+div = 0 
 
-if pNumber < 2:
-    print('{} não é um número primo.'.format(pNumber))
-else:
-    isPrime = True
-    for i in range(2, int(pNumber ** 0.5) + 1):
-        if pNumber % i == 0:
-            isPrime = False
-            break
-    if isPrime:
-        print('{} é um número primo.'.format(pNumber))
+for x in range (1, pNumber + 1):
+    print(x, end = ' ')
+    if pNumber % x == 0:
+        print('[ OK ]')
+        div = div + 1
     else:
-        print('{} não é um número primo.'.format(pNumber))
+        print('[ X ]')
+
+print ('O número {} foi divisível {} vezes.' .format(pNumber, div))
+
+if div == 2:
+    print ('\033[0;32mPor isso, é um número primo.')
+else:
+    print ('\033[0;31mPortanto, NÃO é um número primo.')
