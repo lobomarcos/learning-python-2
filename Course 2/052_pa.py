@@ -4,5 +4,7 @@ q = int (input('Digite a quantidade de termos da progressão aritmética: '))
 
 qTerms = firstTerm + (q - 1) * ratio
 
+print ('A Progressão Aritmética é:')
+
 for x in range (firstTerm, qTerms + ratio, ratio):
     print (x, end = ' -> ')
