@@ -1,7 +1,9 @@
 soma = 0 
+cont = 0
 
-for n in range (1, 501):
-    if n % 3 == 0 and n % 2 != 0:
-        soma += n
+for n in range (1, 501, 2):
+    if n % 3 == 0:
+        cont = cont + 1
+        soma = soma + n
 
-print (soma)
+print ('A soma dos {} valores solicitados é: {}.' .format(cont, soma))
