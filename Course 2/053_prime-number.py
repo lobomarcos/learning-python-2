@@ -9,7 +9,7 @@ for x in range (1, pNumber + 1):
     else:
         print('[ X ]')
 
-print ('O número {} foi divisível {} vezes.' .format(pNumber, div))
+print ('\033[0;34mO número {} foi divisível {} vezes.' .format(pNumber, div))
 
 if div == 2:
     print ('\033[0;32mPor isso, é um número primo.')
