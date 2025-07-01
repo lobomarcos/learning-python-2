@@ -58,7 +58,10 @@ while opt != 5:
 
         print ('A divisão entre {} e {} é: {}.' .format(d1, d2, div))
 
-    else:
+    elif opt == 5:
         print ('Saindo...')
         sleep(1)
         print('Programa encerrado!')
+
+    else:
+        print ('Opção inexistente. Tente novamente.')
