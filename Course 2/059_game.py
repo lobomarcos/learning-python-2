@@ -12,6 +12,12 @@ tCount = 1
 
 while numberUser != numberRandom:
     print ('Você não consegue ler meus pensamentos!')
+    
+    if numberUser > numberRandom:
+        print ('É menos! Tente de novo!')
+    else:
+        print ('É mais! Tente novamente!')
+
     numberUser = int (input('Digite um número entre 0 e 10: '))
     print ('Processando...')
     sleep(1)
