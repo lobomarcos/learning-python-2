@@ -14,5 +14,3 @@ else:
     print ('Seu nome é beeeem comum...')
 
 print ('Prazer em te conhecer, {}!' .format(nome))
-
-# PAREI EM 16 MINUTOS!!!
