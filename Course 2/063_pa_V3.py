@@ -1,29 +1,20 @@
 firstTerm = int (input('Digite o primeiro termo da p.a.: '))
 ratio = int (input('Digite a razão da p.a.: '))
-qTerms = int (input('Digite a quantidade de termos da p.a.: '))
 
 term = firstTerm
 c = 1 
 
-while c <= qTerms:
-    print ('{} -> ' .format(term), end = '')
-    term = term + ratio
-    c = c + 1
-    
-print ('Fim!')
+t = 0
+opt = 10
 
-# TESTES
-'''
-opt = str (input('Você deseja mostrar mais termos? [S / N]')).strip().upper()[0]
+while opt != 0:
+    t = t + opt
+    while c <= t:
+        print ('{} -> ' .format(term), end = '')
+        term = term + ratio
+        c = c + 1
 
-if opt == 's':
+    opt = int(input('\nQuantos termos você quer mostrar a mais? '))
 
-    qTerms2 = int (input('Digite a quantidade de termos: '))
-
-    term = firstTerm
-    c = 1 
-    
-    print ('{} -> ' .format(term), end = '')
-    term = term + ratio
-    c = c + 1
-'''
+    if opt == 0:
+        print ('Fim!')
