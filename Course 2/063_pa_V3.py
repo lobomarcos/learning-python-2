@@ -19,4 +19,4 @@ while opt != 0:
     opt = int(input('\nQuantos termos você quer mostrar a mais? '))
 
     if opt == 0:
-        print ('Fim!')
+        print ('Progressão finalizada com {} termos mostrados.' .format(t))
