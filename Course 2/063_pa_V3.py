@@ -13,6 +13,7 @@ while opt != 0:
         print ('{} -> ' .format(term), end = '')
         term = term + ratio
         c = c + 1
+    print ('Pausa!')
 
     opt = int(input('\nQuantos termos você quer mostrar a mais? '))
 
