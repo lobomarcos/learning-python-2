@@ -1,11 +1,12 @@
 firstTerm = int (input('Digite o primeiro termo da p.a.: '))
 ratio = int (input('Digite a razão da p.a.: '))
+qTerms = int (input('Digite a quantidade de termos da p.a.: '))
 
 term = firstTerm
 c = 1 
 
 t = 0
-opt = 10
+opt = qTerms
 
 while opt != 0:
     t = t + opt
