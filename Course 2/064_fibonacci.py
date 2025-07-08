@@ -1,5 +1,3 @@
-from math import ceil
-
 n = int (input('Quantos números da Sequência de Fibonnaci você quer mostrar? '))
 
 t1 = 0
