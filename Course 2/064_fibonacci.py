@@ -6,6 +6,7 @@ count = 3
 
 print ('Os {} primeiros termos são: ' .format(n))
 print ('{} -> {} -> ' .format(t1, t2), end = '')
+
 while count <= n:
     t3 = t1 + t2
     print ('{} -> ' .format(t3), end = '')
