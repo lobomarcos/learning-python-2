@@ -1,16 +1,12 @@
-number = int (input('Digite um número para saber a sua tabuada: '))
+while True:
+    n = int (input('Digite um número para saber a sua tabuada: '))
+    if n > 0:
+        print ('A tabuada de {} é: ' .format(n))
 
-if number > 0:
-    print ('A tabuada de {} é: ' .format(number))
-
-while number > 0:
-    if number < 0:
-        print ('Número negativo não possui tabuada.')
+    elif n < 0:
+        print ('Não é possível gerar tabuada de número negativo.')
         break
-        
+
     for x in range (0, 11):
-
-        multiply = number * x
-        print ('{} x {} = {}' .format (number, x, multiply))
-
-    number = int (input('De qual outro número você gostaria de ver a tabuada? '))
+        multiply = n * x
+        print ('{} x {} = {}' .format (n, x, multiply))
