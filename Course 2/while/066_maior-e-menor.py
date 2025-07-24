@@ -1,7 +1,6 @@
 r = 'S'
 soma = quant = media = maior = menor = 0
 
-# OK
 while r in 'Ss':
     num = int (input('Digite um número: '))
 
@@ -18,7 +17,6 @@ while r in 'Ss':
 
     r = str (input('Quer continuar digitando números? [S/N]: ')).strip().upper()
 
-# OK
 if r in 'N':
     media = soma / quant
     print('Você digitou {} números e a média é: {}.' .format(quant, media))
